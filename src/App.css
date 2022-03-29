@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  float: left;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+.CardTitle {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: #e071ae;
+  margin-bottom: -10px;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.PaymentIcon {
+  color: #3e8ef6;
+}
+
+.NavOptions {
+  background-color: white;
+  color: white;
+}
+
+.NavText {
+  text-decoration: none;
+}
+
+.TransactionSummary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-self: flex-start;
+}
+
+/* Sign In */
+
+.AddButton {
+  border-radius: 3% !important;
+  min-width: 0px !important;
+  background-color: #6fa2fb !important;
+  color: white !important;
+  height: 80%;
+  justify-self: center;
+  align-self: center;
+}
+
+#name {
+  padding-left: 15px;
+  height: 56.5px;
+}
+
+.splitButton {
+  background-color: #e071ae !important;
+  padding: 15px !important;
+  border-radius: 2px !important;
+  width: 100%;
+  align-self: center;
+  margin-top: 50px;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.CreateBillHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 100px 20px 0px;
+}
+
+.CreateBillTitle {
+  font-size: 20px;
+  color: #e071ae;
+}
+
+.MuiTextField-root {
+  margin: 5px !important;
+  width: 200px;
+  background: white;
+}
+
+.margin {
+  margin: 5px !important;
+}
+
+.SplitLabels {
+  display: flex;
+  flex-direction: row;
+}
+
+.DollarLabel {
+  font-size: 17px;
+  margin-top: 27px;
+  padding-right: 2px;
+  color: #3e8ef6;
+}
+
+.BillPayers {
+  justify-content: space-between;
+  padding: 0 10px 0 10px;
+  flex-direction: row;
+  display: flex;
+}
+
+.NoEffects {
+  text-decoration: none !important;
+  border: none !important;
+  width: 90%;
+}
