@@ -14,7 +14,7 @@ class Transactions extends Component {
         <Divider />
         <div className={styles.transactionsTitle}>
           <h4 className={styles.transactionsText}>Person name </h4>
-          <button type="button" class="btn btn-info">Info</button>
+          <button type="button" class="btn btn-info">Notify shopping</button>
         </div>
       </div>
     );
