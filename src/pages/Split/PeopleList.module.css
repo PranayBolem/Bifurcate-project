@@ -138,8 +138,8 @@
 }
 
 .personPayeeToggleGroup .personIsPayeeButton {
-  border-color: #ffd8f1;
-  color: #ffd8f1;
+  border-color: #808080;
+  color: #808080;
 }
 
 .personPayeeToggleGroup .personIsPayerButton:hover,
@@ -151,8 +151,8 @@
 
 .personPayeeToggleGroup .personIsPayeeButton:hover,
 .personPayeeToggleGroup .personIsPayeeButtonSelected {
-  border-color: #e95eb1;
-  background-color: #e95eb1 !important;
+  border-color: #000;
+  background-color: #000 !important;
   color: white !important;
 }
 
