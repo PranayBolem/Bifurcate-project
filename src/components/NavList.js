@@ -3,7 +3,7 @@ import { List, ListItem, ListItemText, Divider } from "@material-ui/core";
 import PaymentIcon from "@material-ui/icons/Payment";
 import PeopleOutlineIcon from "@material-ui/icons/PeopleOutline";
 import NotificationsActiveIcon from "@material-ui/icons/NotificationsActive";
-import ContactsIcon from '@material-ui/icons/Contacts';
+import SendIcon from '@material-ui/icons/Send';
 import styles from "./NavList.module.css";
 
 function ListItemLink(props) {
@@ -37,20 +37,10 @@ export default function NavList() {
         </ListItem>
         <Divider />
         <ListItem button className={styles.navButton}>
-          <ContactsIcon className={styles.navIcon} />
+          <SendIcon className={styles.navIcon} />
           <ListItemLink href="#/home/contacts" className={styles.navButton}>
             <ListItemText
-              primary="Contacts"
-              className={styles.unselectedNavText}
-            />
-          </ListItemLink>
-        </ListItem>
-        <Divider />
-        <ListItem button className={styles.navButton}>
-          <NotificationsActiveIcon className={styles.navIcon} />
-          <ListItemLink href="#/home/notifications" className={styles.navButton}>
-            <ListItemText
-              primary="Notifications"
+              primary="Send"
               className={styles.unselectedNavText}
             />
           </ListItemLink>
