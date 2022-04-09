@@ -22,12 +22,13 @@ export default function Transactions() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_stgw4v4', 'template_ry8zwrl', form.current, 'd8qD8XJaz1RPShXXf')
+    emailjs.sendForm('service_m4g7zyk', 'template_d297tdx', form.current, 'd9AZPnqTHxuLHrumK')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
+
   };
 
     return (
