@@ -44,6 +44,8 @@ Notification through email:
 
 Bifurcate Application
 
+To run the application a windows system with the Chrome web browser installed is needed. Just run the .exe file to run the application. If prompted with windows warnings chose the run away option.
+
 Application asking where to send the shopping list:
 
 ![image](https://user-images.githubusercontent.com/85255384/162881806-4761459d-f270-404c-8788-84163c6088cb.png)
