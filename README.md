@@ -1,6 +1,6 @@
 # Bifurcate-project
 
-Bifurcate is a money spilitting website combined with a custom app to share grocery lists and prices.
+Bifurcate is a website combined with a custom app to share groceries, keep track of transactions and to split bills among each other.
 
 Website
 
