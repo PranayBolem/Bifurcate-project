@@ -1,6 +1,8 @@
 # Bifurcate-project
 
-Bifurcate is a money spilitting webapp
+Bifurcate is a money spilitting website combined with a custom app to share grocery lists and prices.
+
+Website
 
 Do pip install then npm install after entering the directory to install the dependencies
 
@@ -39,6 +41,8 @@ With this send notification tab, you can send a notification to your friend with
 Notification through email:
 
 ![image](https://user-images.githubusercontent.com/85255384/162881557-b81b4d75-8303-4617-85b0-42d8c832ea35.png)
+
+Bifurcate Application
 
 Application asking where to send the shopping list:
 
